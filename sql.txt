@@ -1,0 +1,5 @@
+create database logincredentials;
+use logincredentials;
+create table logindetails(username varchar(40), loginpassword varchar(40));
+insert into logindetails values('username', 'loginpassword');
+Select *from logindetails;
